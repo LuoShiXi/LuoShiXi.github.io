@@ -27,14 +27,14 @@ a, a:hover {
 .w_header_top {
     height: 55px;
 }
-.w_logo {
+/*.w_logo {
     width: 220px;
     height: 55px;
     background-image: url(../img/slider/001.png);
     background-repeat: no-repeat;
     background-position: center;
     float: left;
-}
+}*/
 /*.w_slogan{
 	display: inline-block;
 	font-size: 30px;
