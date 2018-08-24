@@ -1,27 +1,23 @@
 @charset "utf-8";
 /*样式参考*/
+
 a {
     text-decoration: none;
 }
-
 #page {
     height: 50px;
     display: table;
     margin: 0 auto;
 }
-
 .page {
     text-align: center;
 }
-
 .fl {
     float: left;
 }
-
 .fr {
     float: right;
 }
-
 .pagingUl {
     float: right;
     padding: 0;
@@ -29,7 +25,6 @@ a {
     list-style: none;
     height: 30px;
 }
-
 .pagingUl li {
     float: left;
     width: 30px;
@@ -39,7 +34,6 @@ a {
     margin-right: 5px;
     border-radius: 5px
 }
-
 .pagingUl li a {
     display: inline-block;
     width: 30px;
@@ -50,9 +44,7 @@ a {
     font-size: 12px;
     border-radius: 5px
 }
-
-.prv,
-.next {
+.prv, .next {
     width: 30px;
     height: 30px;
     text-align: center;
@@ -62,13 +54,10 @@ a {
     padding: 0 5px;
     border-radius: 5px;
 }
-
 .prv {
     margin-right: 10px;
 }
-
-.first,
-.last {
+.first, .last {
     /*width: 30px;*/
     height: 30px;
     font-size: 12px;
@@ -81,13 +70,7 @@ a {
     border-radius: 5px;
     margin-right: 10px;
 }
-
-.prv:hover,
-.next:hover,
-.first:hover,
-.last:hover,
-.pagingUl li a:hover,
-.activP {
+.prv:hover, .next:hover, .first:hover, .last:hover, .pagingUl li a:hover, .activP {
     background-color: #000!important;
     color: #fff!important;
 }
